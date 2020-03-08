@@ -1,0 +1,9 @@
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\bin\Debug\RegexStreetAddressMatch.exe.config
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\bin\Debug\RegexStreetAddressMatch.exe
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\bin\Debug\RegexStreetAddressMatch.pdb
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.csprojAssemblyReference.cache
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.Properties.Resources.resources
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.csproj.GenerateResource.cache
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.exe
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.pdb
+C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.MainForm.resources
