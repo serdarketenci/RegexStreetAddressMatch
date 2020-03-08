@@ -28,8 +28,10 @@ namespace RegexStreetAddressMatch
             }
 
             var addresses = RegexUtilities.FindStreetAddress(SourceTextBox.Text);
-            var messageBoxValue = string.Format("Count: {0} {1} {2}", Convert.ToString(addresses.Count), Environment.NewLine, String.Join(Environment.NewLine, addresses.ToArray()));
-            MessageBox.Show(messageBoxValue);
+            //var messageBoxValue = string.Format("Count: {0} {1} {2}", Convert.ToString(addresses.Count), Environment.NewLine, String.Join(Environment.NewLine, addresses.ToArray()));
+            //MessageBox.Show(messageBoxValue);
+            Results resultForm = new Results(addresses.Count, String.Join(Environment.NewLine, addresses.ToArray()));
+            resultForm.Show();
         }
 
         private void GetHTMLButton_Click(object sender, EventArgs e)
@@ -80,6 +82,11 @@ namespace RegexStreetAddressMatch
         private void ClearSourceButton_Click(object sender, EventArgs e)
         {
             SourceTextBox.Text = "";
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

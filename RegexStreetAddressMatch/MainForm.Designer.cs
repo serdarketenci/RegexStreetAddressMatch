@@ -39,6 +39,7 @@
             // SourceTextBox
             // 
             this.SourceTextBox.Location = new System.Drawing.Point(12, 47);
+            this.SourceTextBox.MaxLength = 1991632767;
             this.SourceTextBox.Multiline = true;
             this.SourceTextBox.Name = "SourceTextBox";
             this.SourceTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -106,6 +107,7 @@
             this.Controls.Add(this.SourceTextBox);
             this.Name = "MainForm";
             this.Text = "Regex Street Address Match";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

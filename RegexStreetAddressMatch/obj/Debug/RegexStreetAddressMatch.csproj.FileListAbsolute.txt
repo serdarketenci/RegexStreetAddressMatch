@@ -7,3 +7,13 @@ C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\
 C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.exe
 C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.pdb
 C:\Users\serda\source\repos\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.MainForm.resources
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\bin\Debug\RegexStreetAddressMatch.exe.config
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\bin\Debug\RegexStreetAddressMatch.exe
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\bin\Debug\RegexStreetAddressMatch.pdb
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.MainForm.resources
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.Properties.Resources.resources
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.Results.resources
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.csproj.GenerateResource.cache
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.exe
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.pdb
+D:\Work\RegexStreetAddressMatch\RegexStreetAddressMatch\obj\Debug\RegexStreetAddressMatch.csprojAssemblyReference.cache

@@ -84,21 +84,21 @@ namespace RegexStreetAddressMatch
         {
             var result = new List<string>();
             string pattern = @"(?:(?<mahalle>.+?) *(mah|mh|mahalle|mahallesi))?[. ]*
-                               (?:(?<bulvar>.+?) *(?:bul|bulv|bulvar|bulvarı))?[. ]*
+                               (?:(?<bulvar>.+?) *(?:bul|bulv|bulvar|bulvar[ıI]))?[. ]*
                                (?:(?<iskele>.+?) *(?:iskele))?[. ]*
                                (?:(?<gecit>.+?) *(?:ge[çc]i[dt]i))?[. ]*
                                (?:(?<bolge>.+?) *(?:b[oö]lge|b[oö]lgesi))?[. ]*
                                (?:(?<mevkii>.+?) *(?:mevki|mevkii))?[. ]*
                                (?:(?<cadde>.+?) *(?:cd|cad|cadde|caddesi))?[. ]*
-                               (?:(?<sokak>.+?) *(?:sok|sk|sokak|soka[gğ][iı]))?[. ]*
+                               (?:(?<sokak>.+?) *(?:sok|sk|sokak|soka[gğ][iıI]))?[. ]*
                                (?:(?<site>.+?) *(?:site|sitesi|siteleri))?[. ]*
-                               (?:(?<blok>.+?) *(?:blok|bloklar[ıi]|blo[gğ]u))?[. ]*
-                               ((no|numara|nu)(:| :)(?<no>.+)|((?:(?<bina>.+?) *(?:bina|binas[ıi]))))
+                               (?:(?<blok>.+?) *(?:blok|bloklar[Iıi]|blo[gğ]u))?[. ]*
+                               ((no|numara|nu)(:| :)(?<no>.+)|((?:(?<bina>.+?) *(?:bina|binas[Iıi]))))
                                +(?<il>.+)";
             Regex rgx = new Regex(pattern.Replace("\r\n                               ",string.Empty), RegexOptions.IgnoreCase);
 
             foreach (Match match in rgx.Matches(source))
-                result.Add(match.Value);
+                result.Add(match.Value.Trim());
 
             return result;
         }
